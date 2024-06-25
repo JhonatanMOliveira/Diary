@@ -3,7 +3,7 @@
 
 # Diary
 
-This repository contains a simple diary application developed in C# using Windows Forms and SQLite database. The application allows users to manage contacts, including functionalities such as adding, updating, deleting, and searching contacts.
+This repository contains a diary application developed in C# using Windows Forms and SQLite database. The application allows users to manage contacts, including functionalities such as adding, updating, deleting, and searching contacts.
 
 # Features
 - Add Contact: Users can add new contacts by entering their name and email address.
@@ -30,3 +30,40 @@ To use this application, follow these steps:
 - SQLite: SQLite database engine is used for storing contact information.
 - Windows Forms: Windows Forms is utilized for building the user interface.
 - System.Data.SQLite: ADO.NET provider for SQLite is used for database operations.
+
+
+# PORTUGUÊS
+
+# Diary
+
+Este repositório contém uma aplicação de diário desenvolvida em C# utilizando Windows Forms e banco de dados SQLite. A aplicação permite aos usuários gerenciar contatos, incluindo funcionalidades como adicionar, atualizar, excluir e buscar contatos.
+
+# Funcionalidades
+
+- Adicionar Contato: Os usuários podem adicionar novos contatos inserindo seu nome e endereço de email.
+- Atualizar Contato: Contatos existentes podem ser atualizados com novas informações.
+- Excluir Contato: Os usuários podem excluir contatos do diário.
+- Buscar Contato: Os contatos podem ser buscados tanto pelo seu ID quanto pelo nome.
+- Visualizar Contatos: Exibe todos os contatos em uma grade de dados para fácil acesso.
+
+# Instalação
+
+Para usar esta aplicação, siga estes passos:
+
+- Clone o repositório para sua máquina local.
+- Abra o arquivo de solução (Diary.sln) no Visual Studio.
+- Compile a solução para restaurar as dependências.
+- Execute a aplicação a partir do Visual Studio.
+
+# Uso
+
+- Adicionar um Contato: Insira o ID, nome e email do contato nos campos correspondentes, depois clique no botão "Inserir".
+- Atualizar um Contato: Selecione um contato na grade de dados, modifique os detalhes nos campos de texto e clique no botão "Atualizar".
+- Excluir um Contato: Selecione um contato na grade de dados e clique no botão "Excluir".
+- Buscar um Contato: Insira o ID ou nome do contato no campo de busca e clique no botão "Buscar".
+
+# Dependências
+
+- SQLite: Motor de banco de dados SQLite é usado para armazenar informações de contato.
+- Windows Forms: Windows Forms é utilizado para construir a interface de usuário.
+- System.Data.SQLite: Provedor ADO.NET para SQLite é usado para operações de banco de dados.
